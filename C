@@ -51,7 +51,7 @@
   <macro name="author">
     <names variable="author">
       <name>
-        <name-part name="family" text-case="uppercase"/>
+        <name-part name="family"/>
         <name-part name="given"/>
       </name>
       <substitute>
@@ -88,7 +88,7 @@
   <macro name="container-author">
     <names variable="editor">
       <name>
-        <name-part name="family" text-case="uppercase"/>
+        <name-part name="family"/>
         <name-part name="given"/>
       </name>
       <substitute>
